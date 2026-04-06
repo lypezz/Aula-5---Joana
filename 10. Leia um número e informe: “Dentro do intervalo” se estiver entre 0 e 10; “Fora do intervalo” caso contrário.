@@ -1,0 +1,6 @@
+numero = (float(input("Digite um número: ")))
+
+if 0 <= numero <= 10:
+    print(f"O número {numero} está entre 0 e 10")
+else:
+    print(f"O número {numero} não está entre 0 e 10")
