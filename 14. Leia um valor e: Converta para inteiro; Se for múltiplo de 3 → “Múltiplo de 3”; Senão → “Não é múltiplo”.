@@ -1,0 +1,6 @@
+num = (int(input("digite um numero, e direi se é multiplo de 3:")))
+
+if num % 3 == 0:
+    print("Seu numero é multiplo de 3")
+else:
+    print("não é multiplo de 3")
