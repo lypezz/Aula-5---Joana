@@ -1,0 +1,3 @@
+numero = (int(input("Digite um número: ")))
+triplo = numero * 3
+print(f"O triplo de {numero} é {triplo}")
