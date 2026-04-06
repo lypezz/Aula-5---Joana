@@ -1,0 +1,6 @@
+num = (int(input("digite um numero, e direi se esta entre 10 e 20: ")))
+
+if num >= 10 and num <= 20:
+    print("seu numero esta dentro!!!")
+else:
+    print("esta fooora!")
