@@ -1,0 +1,7 @@
+numero = float(input("Digite um número: "))
+
+if numero >= 0:
+    raiz = numero ** 0.5
+    print(f"A raiz aproximada de {numero} é {raiz}")
+else:
+    print(f"O número {numero} é inválido para calcular raiz")
