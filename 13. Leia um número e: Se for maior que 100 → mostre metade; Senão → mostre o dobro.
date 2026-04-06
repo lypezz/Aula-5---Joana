@@ -1,0 +1,13 @@
+num = (int(input("Digite um numero:")))
+menor = num * 2
+maior = num / 2
+
+
+if num > 100:
+    print(f"A divisao do {num} é: {maior} " )
+
+elif num < 100:
+    print(f"A multiplicação de {num} é: {menor} " )
+
+else:
+    print("seu numero é 100 ou incorreto!")
